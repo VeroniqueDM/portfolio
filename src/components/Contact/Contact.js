@@ -4,7 +4,7 @@ function Contact() {
             <div class="contacts-wrapper">
                 <h3>Contacts</h3>
                 <div class="card-wrapper">
-                    <p >
+                    <p>
                         <span>veronika.dmiteva@gmail.com</span>
                         <svg
                             fill="#000000"
@@ -44,10 +44,12 @@ function Contact() {
                             href="www.linkedin.com/in/veronika-d-miteva"
                             target="_blank"
                             rel="nooper noreferrer"
-                            style={{
-                                verticalAlign: "middle",
-                                marginLeft: "88px",
-                            }}
+                            style={
+                                {
+                                    // verticalAlign: "middle",
+                                    // marginLeft: "88px",
+                                }
+                            }
                         >
                             <svg
                                 class="linkedin"

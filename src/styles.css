@@ -450,12 +450,15 @@ header .header-wrapper .nav-background.active {
   transition: 0.3s;
   position: absolute;
 }
-.contacts svg {
+/* .contacts svg {
   left: 0px;
+} */
+.contacts svg {
+  margin-left: 20px;
 }
-.contacts svg.linkedin {
+/* .contacts svg.linkedin {
   left: 5px;
-}
+} */
 .contacts svg.linkedin:hover {
   fill: rgb(10, 102, 194);
 }

@@ -17,6 +17,8 @@ const Layout = () => {
       <Certificates/>
       
       <Contact/>  
+              <footer>Copyright&copy; | 2023</footer>
+
       {/* <div className="page">
         <span className="tags top-tags">&lt;body&gt;</span>
 
