@@ -16,8 +16,8 @@ function Header() {
     return (
         <header>
             <section class="header-wrapper">
-            {/* <nav className={navClass}> */}
-            <nav>
+            <nav className={navClass}>
+            {/* <nav> */}
                     {/* <div class="nav-background"></div> */}
                     <div className={`nav-background ${navBackgroundActive ? 'active' : ''}`}></div>
 

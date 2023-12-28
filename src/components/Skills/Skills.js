@@ -143,17 +143,19 @@ function Skills() {
                         <section class="skill-section languages">
                             <h4>Languages</h4>
                             <div>
-                                <h5>Bulgarian</h5>
-                                <p>Native speaker</p>
+                                <h5>Dutch</h5>
+                                <p>Limited working proficiency</p>
                             </div>
                             <div>
                                 <h5>English</h5>
                                 <p>Full professional proficiency</p>
                             </div>
                             <div>
-                                <h5>Dutch</h5>
-                                <p>Limited working proficiency</p>
+                                <h5>Bulgarian</h5>
+                                <p>Native speaker</p>
                             </div>
+                        
+                         
                         </section>
                         
                     </div>

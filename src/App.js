@@ -9,6 +9,9 @@ import "./responsive.scss";
 import Navigation from './components/Navigation/Navigation';
 import React, { useState, useEffect, useRef  } from 'react';
 import DataContext from "./DataContext";
+import About from './components/About/About';
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
 
 function App() {
   const [isMenuActive, setMenuActive] = useState(false);
@@ -103,14 +106,16 @@ function App() {
                 }}
             >
     <Navigation/>
-      <Routes>
+    <Layout/>
+      {/* <Routes>
         <Route path="/" element={<Layout />}>
-          {/* <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Portfolio />} /> */}
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/projects" element={<Portfolio />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+          
         </Route>
-      </Routes>
+      </Routes> */}
+
       </DataContext.Provider>
 
     </>
