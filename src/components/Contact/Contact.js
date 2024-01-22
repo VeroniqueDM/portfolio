@@ -41,7 +41,7 @@ function Contact() {
                         {/* Or you can can find me on */}
                         Or contact me on
                         <a
-                            href="www.linkedin.com/in/veronika-d-miteva"
+                            href="https://www.linkedin.com/in/veronika-d-miteva"
                             target="_blank"
                             rel="nooper noreferrer"
                             style={
