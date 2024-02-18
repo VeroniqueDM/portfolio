@@ -9,7 +9,9 @@ function Certificates() {
                             <a
                                 target="_blank"
                                 rel="nooper noreferrer"
-                                href="https://softuni.bg/certificates/details/176623/af50fcf5"
+                                // href="https://softuni.bg/certificates/details/176623/af50fcf5"
+                                href={process.env.PUBLIC_URL + "/certificates/Diploma for Python Web Developer.pdf"}
+
                             >
                                 Python Web Developer
                             </a>
